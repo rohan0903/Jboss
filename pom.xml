@@ -21,7 +21,6 @@
  <junit.version>4.12</junit.version>
 
 	</properties>
-	
 
 	<dependencies>
 		<dependency>
@@ -30,12 +29,6 @@
   <version>${junit.version}</version>
   <scope>test</scope>
  </dependency>
-		 <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -66,11 +59,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-                <groupId>org.wildfly.plugins</groupId>
-                <artifactId>wildfly-maven-plugin</artifactId>
-                <version>1.0.1.Final</version>
-			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
