@@ -19,16 +19,15 @@
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-    </properties>
+       </properties>
 	<properties>
 		<java.version>1.8</java.version>
 		 <jacoco.version>0.7.5.201505241946</jacoco.version>
- <junit.version>4.12</junit.version>
-
-	</properties>
+                 <junit.version>4.12</junit.version>
+       </properties>
 
 	<dependencies>
-		dependency>
+		<dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>7.0</version>
